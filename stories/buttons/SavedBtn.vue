@@ -14,5 +14,5 @@ defineProps({
 </script>
 
 <template>
-  <button @click.stop="onClick">{{ text }}</button>
+  <button class="bg-[red]" @click.stop="onClick">{{ text }}</button>
 </template>

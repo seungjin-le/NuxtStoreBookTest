@@ -30,6 +30,16 @@ export const ButtonMedium = {
     onClick: () => {
       console.log('저장')
     },
-    size: 'large'
+    size: 'medium'
+  }
+}
+
+export const ButtonSmall = {
+  args: {
+    text: '저장',
+    onClick: () => {
+      console.log('저장')
+    },
+    size: 'small'
   }
 }
