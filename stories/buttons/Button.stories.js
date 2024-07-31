@@ -1,7 +1,7 @@
 import Button from './SavedBtn.vue'
 
 const meta = {
-  title: 'Components/Button',
+  title: 'Components/Buttons/DefaultBtn',
   component: Button,
   tags: ['autodocs'],
   argTypes: {

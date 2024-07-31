@@ -6,7 +6,8 @@ export default {
     './pages/**/*.vue',
     './app.vue',
     './error.vue',
-    './stories/**/*.stories.@(js|jsx|mjs|ts|tsx)'
+    './stories/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    './components/**/*.story.{vue,js,ts}'
   ],
   theme: {
     extend: {}
