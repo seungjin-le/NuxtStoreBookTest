@@ -16,5 +16,7 @@ const value = model('text', {
 </script>
 
 <template>
-  <button class="bg-[red]" @click.stop="onClick">{{ value }}</button>
+  <div>
+    
+  </div>
 </template>
