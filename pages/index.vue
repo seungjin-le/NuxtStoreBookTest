@@ -1,8 +1,11 @@
 <script setup>
 
-await console.log(state.value)
+const test  = ref('')
 </script>
 
 <template>
- 
+ <div>
+  {{test}}
+  <input v-model="test" type="text">
+ </div>
 </template>
