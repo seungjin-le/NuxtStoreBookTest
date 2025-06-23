@@ -12,26 +12,15 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@nuxtjs/storybook": "^8.1.5",
-    "nuxt": "^3.12.4",
-    "prettier": "^3.3.3",
+    "nuxt": "^3.17.5",
+    "prettier": "^3.5.3",
     "vue": "latest"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "1.6.1",
-    "@nuxtjs/storybook": "8.1.5",
-    "@nuxtjs/tailwindcss": "^6.12.1",
-    "@storybook-vue/nuxt": "^8.1.5",
-    "@storybook/addon-essentials": "^8.2.6",
-    "@storybook/addon-interactions": "^8.2.6",
-    "@storybook/addon-links": "^8.2.6",
-    "@storybook/blocks": "^8.2.6",
-    "@storybook/builder-vite": "^8.2.6",
-    "@storybook/test": "^8.2.6",
-    "@storybook/vue3": "^8.2.6",
-    "@types/node": "^18.17.5",
-    "@vitejs/plugin-vue": "^5.1.1",
-    "nuxt-vite": "^0.3.5",
-    "storybook": "^8.2.6"
-  }
+    "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
+    "@types/node": "^24.0.3",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "nuxt-vite": "^0.3.5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

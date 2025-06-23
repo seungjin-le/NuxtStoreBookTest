@@ -1,11 +1,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/storybook'],
+  modules: ['@nuxtjs/tailwindcss'],
   alias: {
     '@': '/src'
-  },
-  storybook: {
-    port: 3010
   }
 })
