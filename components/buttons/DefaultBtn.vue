@@ -1,21 +1,18 @@
 <script setup>
-
-
 const props = defineProps({
-  onClick:{
-    type:function,
-    default:() => {}
+  onClick: {
+    type: Function,
+    default: () => {}
+  },
+  text: {
+    type: String,
+    default: ''
   }
 })
 </script>
 
-
-
 <template>
-
   <div>
-    <button >
-
-    </button>
+    <button onclick="onClick">{text}</button>
   </div>
 </template>
