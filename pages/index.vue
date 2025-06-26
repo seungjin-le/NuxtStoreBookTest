@@ -1,11 +1,9 @@
 <script setup>
-
-const test  = ref('')
+const test = ref('')
 </script>
 
 <template>
- <div>
-  {{test}}
-  <input v-model="test" type="text">
- </div>
+  <div>
+    <input v-model="test" type="text" />
+  </div>
 </template>
