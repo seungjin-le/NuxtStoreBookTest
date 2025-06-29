@@ -1,10 +1,9 @@
 <script setup>
-
-  defineProps({})
-
+defineProps({})
 </script>
 
-
 <template>
-
+  <div>
+    <Outlet />
+  </div>
 </template>
