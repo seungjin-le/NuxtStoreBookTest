@@ -13,6 +13,6 @@ const props = defineProps({
 
 <template>
   <div>
-    <button onclick="onClick">{text}</button>
+    <button onclick="onClick">{{ text }}</button>
   </div>
 </template>
