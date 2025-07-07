@@ -12,7 +12,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div>
+  <div class="">
     <button onclick="onClick">{{ text }}</button>
   </div>
 </template>
