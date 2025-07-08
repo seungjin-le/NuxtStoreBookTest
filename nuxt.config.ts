@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   alias: {
     '@': '/src',
-    components: '@/components'
+    components: '/components',
+    assets: '/assets'
   }
 })
