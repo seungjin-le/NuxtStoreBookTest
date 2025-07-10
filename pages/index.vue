@@ -6,6 +6,5 @@ const inputVal = ref('')
 <template>
   <div>
     <input v-model="test" type="text" />
-    <input v-model="inputVal" type="text" />
   </div>
 </template>
