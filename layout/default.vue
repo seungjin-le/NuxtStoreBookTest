@@ -3,7 +3,7 @@ defineProps({})
 </script>
 
 <template>
-  <div>
+  <div class="text-red">
     <Outlet />
   </div>
 </template>
