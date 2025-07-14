@@ -4,6 +4,6 @@ defineProps({})
 
 <template>
   <div class="text-red">
-    <Outlet />
+    <slot />
   </div>
 </template>
