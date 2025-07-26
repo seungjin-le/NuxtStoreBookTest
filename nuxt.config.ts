@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   alias: {
     '@': '/src',
     components: '/components',
-    assets: '/assets'
+    assets: '/assets',
+    styles: '/assets/styles'
   }
 })
