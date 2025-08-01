@@ -1,6 +1,7 @@
 <script setup></script>
 
-
 <template>
-  <div></div>
+  <div>
+    <input type="text" />
+  </div>
 </template>
