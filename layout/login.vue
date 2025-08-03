@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <div class="flex-row-center">
     <slot />
   </div>
 </template>
