@@ -12,8 +12,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "nuxt": "^3.17.5",
-    "prettier": "^3.5.3",
+    "nuxt": "^4.0.2",
+    "prettier": "^3.6.2",
     "vue": "latest"
   },
   "devDependencies": {
