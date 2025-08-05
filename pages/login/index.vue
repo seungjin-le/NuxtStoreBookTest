@@ -1,4 +1,11 @@
-<script setup></script>
+<script setup>
+const { values } = useForm({
+  validationSchema: yup.object({
+    text1: yup.string(),
+    text3: yup.string()
+  })
+})
+</script>
 
 <template>
   <div>
