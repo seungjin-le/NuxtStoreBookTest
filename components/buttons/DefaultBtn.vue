@@ -13,6 +13,6 @@ const props = defineProps({
 
 <template>
   <div class="">
-    <button onclick="onClick">{{ text }}</button>
+    <button v-on:click="onClick">{{ text }}</button>
   </div>
 </template>
