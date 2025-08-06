@@ -2,13 +2,11 @@
 import { useForm } from 'vee-validate'
 import * as yup from 'yup'
 import DefaultBtn from 'components/buttons/DefaultBtn.vue'
-import { watchEffect } from 'vue'
+
 const { values, defineField, handleSubmit } = useForm({
-  validationSchema: yup.object({
-    text1: yup.string().required(),
-    text2: yup.string(),
-    text3: yup.string()
-  })
+  text1: z.string().min(1),
+  text2: z.string().optional(),
+  text3: z.string().optional()
 })
 
 const [text1, text1Attrs] = defineField('text1')
@@ -22,7 +20,6 @@ const ovj = {
       (err) => console.log(err, 'asdfaf')
     )()
 }
-console.log(values)
 
 watch(
   () => values,
