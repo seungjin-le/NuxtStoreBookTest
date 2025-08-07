@@ -1,6 +1,5 @@
 <script setup>
 import { useForm } from 'vee-validate'
-import * as yup from 'yup'
 import DefaultBtn from 'components/buttons/DefaultBtn.vue'
 
 const { values, defineField, handleSubmit } = useForm({
@@ -41,8 +40,6 @@ watch(
       class="size-[40px] border-1 border-[red] rounded-[10px]"
       @click="
         () => {
-          console.log('asdfasdf')
-
           handleSubmit(
             (success) => console.log(success),
             (err) => console.log(err)
