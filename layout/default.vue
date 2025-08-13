@@ -1,6 +1,4 @@
 <script setup>
-import { computed, ref } from 'vue'
-
 const test = ref('')
 
 const test2 = computed(() => test.value)
