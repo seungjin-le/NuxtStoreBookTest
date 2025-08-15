@@ -16,11 +16,7 @@ const handleOnLogin = async () => {}
 
 const ovj = {
   text: 'asdfasdf',
-  onClick: () =>
-    handleSubmit(
-      (success) => console.log(success),
-      (err) => console.log(err, 'asdfaf')
-    )()
+  onClick: () => handleSubmit( (success) => console.log(success),(err) => console.log(err, 'asdfaf'))()
 }
 
 watch(
@@ -32,14 +28,12 @@ watch(
 
 <template>
   <div
-    class="bg-[gray] size-full min-h-screen [&_input]:border-1 [&_input]:border-[blue] flex-col-center gap-[20px]"
+    class="bg-[gray] size-full min-h-screen flex-col-center-start [&_input]:border-1 [&_input]:border-[blue] flex-col-center gap-[20px]"
   >
     <input type="text" v-model="text1" v-bind="text1Attrs" />
     <input type="text" v-model="text2" v-bind="text2Attrs" />
     <input type="text" v-model="text3" v-bind="text3Attrs" />
-
     <DefaultBtn v-bind="ovj" />
-
     <button
       class="size-[40px] border-1 border-[red] rounded-[10px]"
       @click="
