@@ -19,11 +19,7 @@ const ovj = {
   onClick: () => handleSubmit( (success) => console.log(success),(err) => console.log(err, 'asdfaf'))()
 }
 
-watch(
-  () => values,
-  () => console.log(values),
-  { deep: true }
-)
+
 </script>
 
 <template>
