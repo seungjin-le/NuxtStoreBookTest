@@ -14,6 +14,7 @@ const [text3, text3Attrs] = defineField('text3')
 
 const handleOnLogin = async () => {}
 
+/// props
 const ovj = {
   text: 'asdfasdf',
   onClick: () => handleSubmit( (success) => console.log(success),(err) => console.log(err, 'asdfaf'))()
