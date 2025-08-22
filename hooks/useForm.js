@@ -1,6 +1,6 @@
 import { reactive, toRefs } from 'vue'
 
-export function createUseForm(schema) {
+export function useForm(schema) {
   return function useForm() {
     const state = reactive({
       values: {},
@@ -22,9 +22,7 @@ export function createUseForm(schema) {
 
     function handleSubmit(onSuccess, onError) {
       return () => {
-        const result = schema.safeParse
-          ? schema.safeParse(state.values)
-          : { success: true, data: state.values }
+        const result = schema.safeParse ? schema.safeParse(state.values) : { success: true, data: state.values }
         if (result.success) {
           state.errors = {}
           onSuccess(result.data)
