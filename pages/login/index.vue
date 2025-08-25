@@ -11,7 +11,7 @@ const { values, defineField, handleSubmit } = useForm({
 const [text1, text1Attrs] = defineField('text1')
 const [text2, text2Attrs] = defineField('text2')
 const [text3, text3Attrs] = defineField('text3')
-
+const [text4, text4Attrs] = defineField('text3')
 const handleOnLogin = async () => {}
 
 const ovj = {
@@ -31,6 +31,7 @@ const ovj = {
     <input type="text" v-model="text1" v-bind="text1Attrs" />
     <input type="text" v-model="text2" v-bind="text2Attrs" />
     <input type="text" v-model="text3" v-bind="text3Attrs" />
+    <input type="text" v-model="text4" v-bind="text3Attrs" />
     <DefaultBtn v-bind="ovj" />
   </div>
 </template>
