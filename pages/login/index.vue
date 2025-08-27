@@ -12,15 +12,8 @@ const [text1, text1Attrs] = defineField('text1')
 const [text2, text2Attrs] = defineField('text2')
 const [text3, text3Attrs] = defineField('text3')
 const [text4, text4Attrs] = defineField('text3')
-const handleOnLogin = async () => {}
-
-const ovj = {
-  text: 'asdfasdf',
-  onClick: () =>
-    handleSubmit(
-      (success) => console.log(success),
-      (err) => console.log(err, 'asdfaf')
-    )()
+const handleOnLogin = async (formData) => {
+  console.log(formData)
 }
 </script>
 
@@ -32,6 +25,8 @@ const ovj = {
     <input type="text" v-model="text2" v-bind="text2Attrs" />
     <input type="text" v-model="text3" v-bind="text3Attrs" />
     <input type="text" v-model="text4" v-bind="text3Attrs" />
-    <DefaultBtn v-bind="ovj" />
+    <DefaultBtn
+      v-bind="{ text: 'test', onClick: handleSubmit(handleOnLogin, (err) => console.log(err, 'asdfaf'))() }"
+    />
   </div>
 </template>

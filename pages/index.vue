@@ -1,8 +1,5 @@
 <script setup>
 import { ref } from 'vue'
-
-const test = ref('')
-const inputVal = ref('')
 </script>
 
 <template>
