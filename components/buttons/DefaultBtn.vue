@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   onClick: {
     type: Function,
@@ -7,12 +7,14 @@ const props = defineProps({
   text: {
     type: String,
     default: ''
+  },
+  size: {
+    type: String,
+    default: 'm'
   }
 })
 </script>
 
 <template>
-  <div class="">
-    <button v-on:click="onClick">{{ text }}</button>
-  </div>
+  <button v-on:click="onClick">{{ text }}</button>
 </template>

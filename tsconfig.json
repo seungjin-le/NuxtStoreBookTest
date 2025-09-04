@@ -3,7 +3,8 @@
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@/components/*": ["src/components/*"]
     }
   },
   "include": ["src/**/*.js", "src/**/*.ts", "src/**/*.vue"]
