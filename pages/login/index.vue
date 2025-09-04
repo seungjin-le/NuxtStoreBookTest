@@ -15,7 +15,7 @@ const [text3, text3Attrs] = defineField('text3')
 const handleOnLogin = async () => {}
 
 const ovj = {
-  text: 'asdfasdf',
+  text: 'btn',
   onClick: () =>
     handleSubmit(
       (success) => console.log(success),
@@ -32,6 +32,7 @@ const ovj = {
     <input type="text" v-model="text2" v-bind="text2Attrs" />
     <input type="text" v-model="text3" v-bind="text3Attrs" />
     <DefaultBtn v-bind="ovj" />
+
     <button
       class="size-[40px] border-1 border-[red] rounded-[10px]"
       @click="
