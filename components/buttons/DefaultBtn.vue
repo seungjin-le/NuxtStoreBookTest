@@ -18,3 +18,5 @@ const props = defineProps({
 <template>
   <button v-on:click="onClick">{{ text }}</button>
 </template>
+
+<style scoped></style>
