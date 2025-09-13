@@ -24,8 +24,6 @@ const handleOnLogin = async (formData) => {
     <div class="flex-col-center gap-[20px]">
       <input type="text" v-model="text1" v-bind="text1Attrs" />
       <input type="text" v-model="text2" v-bind="text2Attrs" />
-      <input type="text" v-model="text3" v-bind="text3Attrs" />
-      <input type="text" v-model="text4" v-bind="text3Attrs" />
     </div>
     <DefaultBtn
       v-bind="{ text: 'test', onClick: handleSubmit(handleOnLogin, (err) => console.log(err, 'asdfaf'))() }"
