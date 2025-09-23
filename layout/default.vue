@@ -1,13 +1,5 @@
-<script setup>
-import { computed, ref } from 'vue'
-
-const test = ref('')
-
-const test2 = computed(() => test.value)
-</script>
+<script setup></script>
 
 <template>
-  <div class="text-red">
-    <slot />
-  </div>
+  <slot />
 </template>
