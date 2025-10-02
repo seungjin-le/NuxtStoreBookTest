@@ -7,8 +7,6 @@ import DefaultBtn from 'components/buttons/DefaultBtn.vue'
   <div
     class="bg-[gray] size-full min-h-screen flex-col-center-start [&_input]:border-1 [&_input]:border-[blue] flex-col-center gap-[20px]"
   >
-    <input type="text" />
-    <input type="text" />
     <DefaultBtn v-bind="{ text: 'test' }" />
   </div>
 </template>
