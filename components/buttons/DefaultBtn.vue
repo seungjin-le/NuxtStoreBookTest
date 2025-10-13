@@ -11,12 +11,16 @@ const props = defineProps({
   size: {
     type: String,
     default: 'm'
+  },
+  disabled: {
+    type: Boolean,
+    default: false
   }
 })
 </script>
 
 <template>
-  <button :click="props.onClick">{{ text }}</button>
+  <button :click="props.onClick" :disabled="props.disabled">{{ text }}</button>
 </template>
 
 <style scoped></style>
