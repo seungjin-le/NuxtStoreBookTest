@@ -1,5 +1,4 @@
 <script setup>
-import { useForm } from 'vee-validate'
 import DefaultBtn from 'components/buttons/DefaultBtn.vue'
 </script>
 
