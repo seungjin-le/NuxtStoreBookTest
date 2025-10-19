@@ -4,7 +4,8 @@ import DefaultBtn from 'components/buttons/DefaultBtn.vue'
 
 <template>
   <div class="">
-    <input />
+    <input type="text" />
+    <input type="password" />
     <DefaultBtn v-bind="{ text: 'test', onClick: () => console.log('test') }" />
   </div>
 </template>
