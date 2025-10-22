@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps({
+defineProps({
   onClick: {
     type: Function,
     default: () => {}
@@ -20,7 +20,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <button :click="props.onClick" :disabled="props.disabled">{{ text }}</button>
+  <button :click="onClick" :disabled="disabled">{{ text }}</button>
 </template>
 
 <style scoped></style>
