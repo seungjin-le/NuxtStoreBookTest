@@ -22,5 +22,3 @@ defineProps({
 <template>
   <button :click="onClick" :disabled="disabled">{{ text }}</button>
 </template>
-
-<style scoped></style>
