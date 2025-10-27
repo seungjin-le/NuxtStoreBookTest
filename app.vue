@@ -11,3 +11,6 @@ import '~/assets/style/tailwind.css'
   </>
 </template>
   
+
+<style scoped>
+</style>
