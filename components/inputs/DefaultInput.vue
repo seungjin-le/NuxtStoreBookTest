@@ -2,4 +2,8 @@
 const value = defineModel({ type: String, default: '', name: 'value', required: false })
 </script>
 
-<template><input v-model="value" /></template>
+<template>
+  <div class="flex-col-start">
+    <input v-model="value" />
+  </div>
+</template>
