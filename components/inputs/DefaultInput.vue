@@ -1,5 +1,5 @@
-<script setup lang="ts">
-const value = defineModel({ type: String, default: '', name: 'value', required: false })
+<script setup>
+const value = defineModel({ type: 'string', default: '', name: 'value', required: false })
 </script>
 
 <template>
