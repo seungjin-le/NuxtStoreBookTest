@@ -1,8 +1,10 @@
-<script setup></script>
+<script setup>
+const id = ref('')
+</script>
 
 <template>
   <div>
-    <input v-model="test" type="text" />
+    <input v-model="id" type="text" />
     <input type="password" />
   </div>
 </template>
