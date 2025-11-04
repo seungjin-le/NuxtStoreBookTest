@@ -24,7 +24,11 @@
     @slot;
   }
 }
-
+@custom-variant pc {
+  @media (width > 1200px) {
+    @slot;
+  }
+}
 @theme {
   --breakpoint-*: initial;
   --spacing-maxW: 1200px;
