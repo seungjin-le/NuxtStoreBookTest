@@ -31,7 +31,7 @@
 }
 @theme {
   --breakpoint-*: initial;
-  --spacing-maxW: 1200px;
+  --spacing-maxW: 1920px;
 
   /*--------------------- H ---------------------*/
   --text-h60: 60px;
