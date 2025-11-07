@@ -19,6 +19,12 @@
   }
 }
 
+@custom-variant s {
+  @media (width < 390px) {
+    @slot;
+  }
+}
+
 @custom-variant m {
   @media (width <= 1200px) {
     @slot;
