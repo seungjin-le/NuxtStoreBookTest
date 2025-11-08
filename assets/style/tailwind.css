@@ -20,7 +20,7 @@
 }
 
 @custom-variant s {
-  @media (width < 390px) {
+  @media (width <= 390px) {
     @slot;
   }
 }
