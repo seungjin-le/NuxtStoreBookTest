@@ -1,5 +1,6 @@
 <script setup>
 const id = ref('')
+const pw = ref('')
 </script>
 
 <template>
