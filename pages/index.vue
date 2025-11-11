@@ -6,6 +6,5 @@ const pw = ref('')
 <template>
   <div>
     <input v-model="id" type="text" />
-    <input type="password" />
   </div>
 </template>
