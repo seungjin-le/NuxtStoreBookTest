@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 defineProps({
   onClick: {
     type: Function,
@@ -17,6 +19,8 @@ defineProps({
     default: false
   }
 })
+
+const size = computed(() => '')
 </script>
 
 <template>
