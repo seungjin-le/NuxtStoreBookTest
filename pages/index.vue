@@ -1,10 +1,5 @@
-<script setup>
-const id = ref('')
-const pw = ref('')
-</script>
+<script setup></script>
 
 <template>
-  <div>
-    <input v-model="id" type="text" />
-  </div>
+  <div></div>
 </template>
