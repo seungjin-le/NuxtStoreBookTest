@@ -1,5 +1,7 @@
 <script setup>
 const value = defineModel({ type: 'string', default: '', name: 'value', required: false })
+
+const test = ref('')
 </script>
 
 <template>
