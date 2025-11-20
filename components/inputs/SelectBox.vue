@@ -2,4 +2,6 @@
 const value = defineModel({ name: 'value', default: '', required })
 </script>
 
-<template></template>
+<template>
+  <div></div>
+</template>
