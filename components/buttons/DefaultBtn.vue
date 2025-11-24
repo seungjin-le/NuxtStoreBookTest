@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
-defineProps({
+const props = defineProps({
   onClick: {
     type: Function,
     default: () => {}
@@ -17,10 +17,15 @@ defineProps({
   disabled: {
     type: Boolean,
     default: false
+  },
+  color: {
+    type: String,
+    default: ''
   }
 })
 
 const size = computed(() => '')
+const color = computed(() => props.color)
 </script>
 
 <template>
