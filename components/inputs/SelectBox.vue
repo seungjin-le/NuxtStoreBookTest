@@ -3,5 +3,7 @@ const value = defineModel({ name: 'value', default: '', required })
 </script>
 
 <template>
-  <div></div>
+  <div>
+    <button></button>
+  </div>
 </template>
