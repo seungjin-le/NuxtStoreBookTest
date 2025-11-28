@@ -14,13 +14,13 @@ const props = defineProps({
     type: String,
     default: 'm'
   },
-  disabled: {
-    type: Boolean,
-    default: false
-  },
   color: {
     type: String,
     default: ''
+  },
+  disabled: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -29,5 +29,5 @@ const color = computed(() => props.color)
 </script>
 
 <template>
-  <button :click="onClick" :disabled="disabled">{{ text }}</button>
+  <button :click="onClick" :disabled="disabled" class="outline-0 focus:outline-0">{{ text }}</button>
 </template>
