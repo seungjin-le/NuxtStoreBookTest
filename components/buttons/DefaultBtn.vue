@@ -33,5 +33,5 @@ const color = computed(() => props.color)
 </script>
 
 <template>
-  <button :click="onClick" :disabled="disabled" class="outline-0 focus:outline-0">{{ text }}</button>
+  <button :click="onClick" :disabled="disabled" class="outline-0 focus:outline-0 cursor-pointer">{{ text }}</button>
 </template>
