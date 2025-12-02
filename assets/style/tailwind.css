@@ -14,13 +14,12 @@
   body {
     min-height: 100dvh;
     min-width: 100dvw;
-
     width: 100%;
   }
 }
 
-@custom-variant s {
-  @media (width <= 390px) {
+@custom-variant pc {
+  @media (width > 1200px) {
     @slot;
   }
 }
@@ -30,8 +29,8 @@
     @slot;
   }
 }
-@custom-variant pc {
-  @media (width > 1200px) {
+@custom-variant s {
+  @media (width <= 390px) {
     @slot;
   }
 }
